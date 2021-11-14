@@ -15,7 +15,7 @@ def get_lyric():
 # object of tkinter
 # and background set to light grey
 master = Tk()
-master.configure(bg='light grey')
+master.configure(bg='skyblue')
 
 # Variable Classes in tkinter
 result = StringVar()
@@ -23,16 +23,16 @@ result = StringVar()
 # Creating label for each information
 # name using widget Label
 Label(master, text="Enter Song name : ",
-	bg="light grey").grid(row=0, sticky=W)
+	bg="skyblue").grid(row=0, sticky=W)
 
 Label(master, text="Result :",
-	bg="light grey").grid(row=3, sticky=W)
+	bg="skyblue").grid(row=3, sticky=W)
 
 
 # Creating lebel for class variable
 # name using widget Entry
 Label(master, text="", textvariable=result,
-	bg="light grey").grid(row=3, column=1, sticky=W)
+	bg="skyblue").grid(row=3, column=1, sticky=W)
 
 e = Entry(master, width=50)
 e.grid(row=0, column=1)
